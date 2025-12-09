@@ -184,7 +184,7 @@ nav{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    /* position: absolute; */
 }
 .wallpaper{
     width: 100%;
@@ -254,4 +254,134 @@ nav{
     font-size: 1.1em;
     margin-bottom: 20px;
     white-space: initial;
+}
+
+
+/*--------------- Skill Section -----------------------*/
+.skill{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 20px;
+    height: 116vh;
+    padding: 100px;
+    color: #f2f2f2;
+    background-color: #1b1b1b;
+}
+.skill_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.skill_div h1{
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Chronicle Display Bold", Georgia, serif;
+}
+.skill_div #skill_span{
+    border: 1px solid #00b7c7;
+    display: block;
+    width: 100PX;
+    margin: 30px 0px;
+}
+.skill_div .skill_child_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    /* gap: 6%; */
+}
+.skill_div .skill_child_div .skill_child_child_div1{
+    width: 35%;
+}
+.skill_div .skill_child_div .skill_child_child_div2 h2,
+.skill_div .skill_child_div .skill_child_child_div1 h2{
+    font-weight: 700;
+    font-size: 1.5vw;
+    margin: 10px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.skill_div .skill_child_div .skill_child_child_div1 h2 #icon{
+    background-image: url('./assests/icon/settings.png');
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+.skill_div .skill_child_div .skill_child_child_div2 h2 #icon2{
+    background-image: url('./assests/icon/repair-tools.png');
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+.skill_div .skill_child_div .skill_child_child_div2 h2 #icon3{
+    background-image: url('./assests/icon/light-bulb.png');
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+.skill_div .skill_child_div .skill_child_child_div1 ul{
+    width: auto;
+    height: auto;
+    display: grid;
+    /* justify-content: center; */
+    grid-template-columns: 104px 104px 104px;
+    grid-template-rows: 120px 120px 120px;
+    gap: 0px;
+}
+.skill_div .skill_child_div .skill_child_child_div1 ul>li{
+    width: 104px;
+    height: 120px;
+    padding: 0px 15px 15px;
+}
+.skill_div .skill_child_div .skill_child_child_div1 ul>li img{
+    width: 55px;
+    height: 77px;
+    margin: 0px 10px 0px 10px;
+}
+.skill_div .skill_child_div .skill_child_child_div1 ul{
+    list-style: none;
+    padding: 0px;
+    margin: 30px 0px;
+}
+.skill_div .skill_child_div .skill_child_child_div2{
+    display: flex;
+    padding: 15px;
+    width: 690px;
+}
+.skill_div .skill_child_div .skill_child_child_div2 div{
+    width: 330px;
+    height: 270px;
+}
+.skill_div .skill_child_div .skill_child_child_div2 div ul{
+    margin: 30px 0px 30px 20px;
+    font-size: 30px
+}
+.skill_div .skill_child_div .skill_child_child_div2 div ul>li{
+    margin: 10px 0px;
+    font-size: 16px;
+    list-style: none;
+}
+.skill_div .skill_child_div .skill_child_child_div2 div ul>li img{
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
 }
